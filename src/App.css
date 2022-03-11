@@ -1,0 +1,88 @@
+.App {
+  background-image: url(./bg.jpg);
+  height: 100vh;
+}
+.flex{
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.heading{
+  font-size: 60px;
+  top: 100px;
+  left: 42%;
+  letter-spacing: 10px;
+  padding: 20px 25px 20px 30px;
+  margin-bottom: 10%;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 10px );
+  border-radius: 8px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.heading p{
+  margin: 0px;
+}
+
+.main .input{
+  background-color: white;
+  padding: 10px 10px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0,0.3);
+}
+.main .input input{
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.input i{
+  font-size: 22px;
+}
+
+.buttons{
+  margin: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button{
+  cursor: pointer;
+  background: #196db3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  width: max-content;
+}
+.button p{
+  margin: 0px;
+}
+
+.red{
+  color: #ff4b2b;
+}
+
+.green{
+  color:  #20c997;
+}
+
+.purple{
+  color: #845ef7;
+}
+
+.blue{
+  color: #339af0;
+}
+
+.pink{
+  color:#f06595; 
+}
+.title span{
+  transition: all .5s ease-in-out;
+}

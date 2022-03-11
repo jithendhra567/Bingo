@@ -1,0 +1,94 @@
+.main-board{
+    position: relative;
+}
+.roomId{
+    display: flex;
+    position: relative;
+    width: max-content;
+    margin: 0px auto 30px auto;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    align-items: flex-end;
+    padding: 20px 20px;
+    border-radius: 5px;
+    
+    p{
+        align-self: center;
+        margin: 0px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    h6{
+        position: absolute;
+        font-size: 10px;
+        top: 0px;
+        left: 5px;
+        font-weight: 600;
+        margin: 0px 10px 5px 0px;
+    }
+    .copy{
+        cursor: pointer;
+        padding: 10px;
+        margin-left: 10px;
+        align-self: center;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(228, 230, 231);
+    }
+    .share{
+        cursor: pointer;
+        padding: 10px;
+        margin-right: 10px;
+        align-self: center;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(228, 230, 231);
+    }
+}
+.board{
+    margin: 10px;
+    padding: 20px 30px 35px 30px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 10px );
+    border-radius: 8px;
+    box-sizing: content-box;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    .row{
+        display: flex;
+    }
+}
+
+.square{
+    cursor: pointer;
+    margin: 15px 0px 0px 0px;
+    width: 60px;
+    background-color:rgb(247, 242, 242);
+    aspect-ratio: 1/1;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 3px;
+    transition: all 0.25s ease-in-out;
+    p{
+        margin: 0px;
+        transition: all 0.25s ease-in-out;
+    }
+}
+
+.square:hover{
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px 0px 0px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.square ~ .square{
+    margin-left: 10px;
+}
